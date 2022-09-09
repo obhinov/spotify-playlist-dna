@@ -10,8 +10,8 @@ function App () {
   const [message, setMessage] = useState(null);
   const [chartData, setChartData] = useState({});
 
-  const client_id = 'a7b4e4c5e03c48f48bc110f715aecfe2';
-  const client_secret = '3baf4f2802644602855bf1b1d85ac3f2';
+  const client_id = // insert your own Spotify client id here
+  const client_secret = // insert your own Spotify client secret here
 
   let total;
   const track_hrefs_array = [];
