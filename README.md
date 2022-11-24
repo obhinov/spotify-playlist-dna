@@ -1,6 +1,8 @@
 # spotify-playlist-dna
 A React app that, using the Spotify API, obtains the genres of the tracks in any public Spotify playlist.
 
+Code Presentation and Demo video: https://www.loom.com/share/135c1d7d90a843debfd2d5e83fe7cdbd
+
 Genres of the tracks are obtained, and then a graph is created showcasing the genre distribution of all the tracks in the playlist.
 
 So far, the application can support playlists of up to 60 songs.
