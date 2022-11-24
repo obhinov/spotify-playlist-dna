@@ -10,14 +10,16 @@ function App () {
   const [message, setMessage] = useState(null);
   const [chartData, setChartData] = useState({});
 
-  const client_id = 'a7b4e4c5e03c48f48bc110f715aecfe2';
-  const client_secret = '3baf4f2802644602855bf1b1d85ac3f2';
+  const client_id = `${process.env.REACT_APP_CLIENT_ID}`;
+  const client_secret = `${process.env.REACT_APP_CLIENT_SECRET}`;
+  console.log(client_id);
+  console.log(client_secret);
 
   let total;
   const track_hrefs_array = [];
   const artist_hrefs_array = [];
   const genres_array = [];
-  const genre_count = {};po
+  const genre_count = {};
   
 
   useEffect(() => {
